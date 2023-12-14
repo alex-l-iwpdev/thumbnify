@@ -1,0 +1,13 @@
+.idea/
+
+vendor/
+
+*.lock
+.DS_Store
+.phpcs.cache
+Thumbs.db
+quote.log
+yarn.lock
+phpcs.xml
+/src/js/node_modules/
+/src/js/package-lock.json
