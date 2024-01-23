@@ -1,13 +1,37 @@
-.idea/
+# A set of files and directories you probably don't want in your WordPress.org distribution
 
-vendor/
+# Files
+/.DS_Store
+/.babelrc
+/.codeception.yml
+/.distignore
+/.editorconfig
+/.eslintrc.json
+/.gitignore
+/.phpcs.cache
+/.yarnrc.yml
+/README.md
+/Thumbs.db
+/auth.json
+/babel.config.json
+/composer.json
+/composer.lock
+/package.json
+/MAINTAINERS.md
+/phpcs.xml
+/webpack.config.js
+/yarn.lock
+/languages/*.pot
 
-*.lock
-.DS_Store
-.phpcs.cache
-Thumbs.db
-quote.log
-yarn.lock
-phpcs.xml
-/src/js/node_modules/
-/src/js/package-lock.json
+# Directories
+/.codeception
+/.git
+/.github
+/.idea
+/.tests
+/.wordpress-org
+/.yarn
+/bin
+/node_modules
+/src/js
+/vendor

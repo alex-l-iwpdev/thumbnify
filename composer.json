@@ -7,11 +7,16 @@
       "Thumbnify\\": "src/php"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Thumbnify\\": "src/php"
+    }
+  },
   "prefer-stable": true,
   "authors": [
     {
       "name": "alexl",
-      "email": "iwpdev@outlook.com"
+      "email": "adminv@i-wp-dev.com"
     }
   ],
   "config": {
@@ -29,5 +34,8 @@
     "php-coveralls/php-coveralls": "^2.4"
   },
   "require": {
+  },
+  "scripts": {
+    "phpcs": "vendor/bin/phpcs --colors --standard=phpcs.xml"
   }
 }
